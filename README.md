@@ -13,18 +13,18 @@ This file includes personal information about all athletes. In this project, not
 
 Dataset variables:
 
-code: Athlete's code for the participation in olympics 2024.
-name: Athlete's full name, capitalized surname + first name.
-name_short: Athlete's short name, capitalized surname + first letter of the first name.
-name_tv: Athlete's full name as shown on the tv, first name + capitalized surname.
-gender: Athlete's gender, male or female.
-country_code: Athlete's country abbreviation.
-country: Country name that the athlete represents.
-height: Athlete's height.
-weight: Athlete's weight.
-disciplines: A specific category within a group of sports.
-events: A specific competition where athletes compete for medals. Each discipline can contain multiple events.
-birth_date: Athlete's birth date.
+* code: Athlete's code for the participation in olympics 2024.
+* name: Athlete's full name, capitalized surname + first name.
+* name_short: Athlete's short name, capitalized surname + first letter of the first name.
+* name_tv: Athlete's full name as shown on the tv, first name + capitalized surname.
+* gender: Athlete's gender, male or female.
+* country_code: Athlete's country abbreviation.
+* country: Country name that the athlete represents.
+* height: Athlete's height.
+* weight: Athlete's weight.
+* disciplines: A specific category within a group of sports.
+* events: A specific competition where athletes compete for medals. Each discipline can contain multiple events.
+* birth_date: Athlete's birth date.
 This dataset includes more variables (such as function, birth_place, family, etc.), which will be dropped where they have no effect on this research.
 
 ## Dataset 2
@@ -36,15 +36,18 @@ This file includes a brief information about all medalists. All athletes in the 
 
 Dataset variables:
 
-medal_type: The awarded medal type (Gold, Silver, Bronze).
-medal_code: The code of the medal type (Gold: 1, Silver: 2, Bronze: 3).
-name: The medalist name, and it's format is same as the name in athletes dataset.
-gender: Medalist's gender, male or female.
-country_code: Medalist's country abbreviation.
-country: Country name which the athlete represents.
-team: Name of the medallist's team if exist.
-discipline: A specific category within a group of sports.
-events: A specific competition where athletes compete for medals. Each discipline can contain multiple events.
-code_athlete: Athlete's code for the participation in olympics 2024.
-code_team: Code of the medallist's team if exist.
+* medal_type: The awarded medal type (Gold, Silver, Bronze).
+* medal_code: The code of the medal type (Gold: 1, Silver: 2, Bronze: 3).
+* name: The medalist name, and it's format is same as the name in athletes dataset.
+* gender: Medalist's gender, male or female.
+* country_code: Medalist's country abbreviation.
+* country: Country name which the athlete represents.
+* team: Name of the medallist's team if exist.
+* discipline: A specific category within a group of sports.
+* events: A specific competition where athletes compete for medals. Each discipline can contain multiple events.
+* code_athlete: Athlete's code for the participation in olympics 2024.
+* code_team: Code of the medallist's team if exist.
 This dataset includes more variables, will be dropped where no effect for them on this research.
+
+## Conclusion
+In this study, we can see that some countries like Netherlands, are good in a specific sport like Hockey, and they focused on their participation in this sport which lead to win the highest number of Gold medals in it. On the other hand, Some countries, like United States, have a higher number of participated athletes, and they participate in multiple disciplines, but also they dominates in winning the highest number of Gold medals in specific sports such as Athletics, Swimming, Basketball and Football. Which encourage these nations to focus on these kind of sports in their countries and provide a higher interest to them.
